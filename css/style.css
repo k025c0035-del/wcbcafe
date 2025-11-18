@@ -1,1 +1,10 @@
 
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info dt:nth-of-type(2),
+.info dd:nth-of-type(2) {
+  order: -1; 
+}
