@@ -2,6 +2,11 @@
 .info {
   display: flex;
   flex-direction: column;
+  gap: 30px
+}
+
+.info span {
+    margin-right: 20px;
 }
 
 .info dt:nth-of-type(2),
