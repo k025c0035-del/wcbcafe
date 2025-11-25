@@ -1,14 +1,9 @@
-
-.info {
-  display: flex;
-  gap: 30px
+ul.info {
+  list-style: none;     /* 黒丸を消す */
+  padding-left: 0;      /* 左のインデントも消す */
+  margin: 0;            /* 余計な余白も消す */
 }
 
-.info span {
-    margin-right: 20px;
-}
-
-.info dt:nth-of-type(2),
-.info dd:nth-of-type(2) {
-  order: -1; 
+ul.info li {
+  margin-bottom: 8px;   /* 項目間の余白 */
 }
